@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DEE GRAPHICS — Visual Design Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">DEEGRAPHICS</a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div>
+      <p class="hero-eyebrow fade-up">Intro — About Service Graphics Design</p>
+      <h1 class="hero-title">
+        <span class="line1 fade-up delay-1">TOUR AROUND</span>
+        <span class="line2 glitch fade-up delay-2" data-text="MY PORTFOLIO">MY PORTFOLIO</span>
+      </h1>
+      <p class="hero-sub fade-up delay-3">
+        <strong>We create</strong> quality standard, functional and creative designs that stand out. Visual storytelling built for brands that refuse to blend in.
+      </p>
+      <div class="hero-cta fade-up delay-4">
+        <a href="#portfolio" class="btn-primary">Explore Work</a>
+        <a href="#contact" class="btn-secondary">Start a Project</a>
+      </div>
+    </div>
+    <div class="hero-visual fade-up delay-5">
+      <div class="hero-orbit"><div class="orbit-dot"></div></div>
+      <div class="hero-orbit-2"></div>
+      <div class="hero-card">
+        <!-- PHOTO SLOT — replace profile-photo.jpg with his actual picture -->
+        <div class="hero-photo-slot">
+          <img src="img/me1.jpg" alt="Dah Niel — DEEGRAPHICS">
+        </div>
+        <div class="hero-card-info">
+          <div class="hero-name">
+            DEEGRAPHICS
+            <span>DAH NIEL</span>
+          </div>
+          <div class="hero-role">Graphic Designer &amp; Visual Creator</div>
+          <div class="hero-card-divider"></div>
+        </div>
+        <!-- SOCIAL HANDLES — replace # with actual URLs -->
+        <div class="hero-socials">
+          <a class="social-link" href="https://www.tiktok.com/@deegraphics_001" target="_blank" rel="noopener">
+            <span>TikTok — @deegraphics_001</span>
+            <span class="soc-arrow">↗</span>
+          </a>
+          <a class="social-link" href="https://www.facebook.com/Dah_Niel" target="_blank" rel="noopener">
+            <span>Facebook — Dah_Niel</span>
+            <span class="soc-arrow">↗</span>
+          </a>
+          <a class="social-link" href="https://wa.me/2349042592047" target="_blank" rel="noopener">
+            <span>WhatsApp — +234 904 2592047</span>
+            <span class="soc-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="container">
+  <div class="stats-strip">
+    <div class="stat-item">
+      <span class="stat-num">3+</span>
+      <span class="stat-label">Service Categories</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">5+</span>
+      <span class="stat-label">Flyer Styles</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">100%</span>
+      <span class="stat-label">Creative Quality</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">∞</span>
+      <span class="stat-label">Design Possibilities</span>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-tag">What We Offer</p>
+      <h2 class="section-title">Our <em>Services</em> Are</h2>
+      <p class="services-intro">From identity to awareness — every design is built with purpose, precision, and a creative edge that makes your brand impossible to ignore.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-num">01 / FLYER DESIGNS</div>
+        <div class="service-icon">📋</div>
+        <div class="service-name">Flier Designs</div>
+        <div class="service-desc">Any kind of fliers &amp; posters — church, business, sports, events, monthly announcements. Built to grab attention instantly.</div>
+      </div>
+      <div class="service-card">
+        <div class="service-num">02 / BRAND DESIGNS</div>
+        <div class="service-icon">✦</div>
+        <div class="service-name">Brand Designs</div>
+        <div class="service-desc">Branding &amp; production design — visual identity systems that communicate who you are before you say a word.</div>
+      </div>
+      <div class="service-card">
+        <div class="service-num">03 / LOGO DESIGN</div>
+        <div class="service-icon">◈</div>
+        <div class="service-name">Logo Design</div>
+        <div class="service-desc">Business logos, church logos, and more — crafted to be timeless, versatile, and distinctly yours.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-tag">Project Design — Service Packages</p>
+      <h2 class="section-title">Selected <em>Work</em></h2>
+      <div class="img-hint" style="display:none"></div>
+    </div>
+    <div class="portfolio-filter">
+      <button class="filter-btn active">All Projects</button>
+      <button class="filter-btn">Church Flyers</button>
+      <button class="filter-btn">Business Flyers</button>
+      <button class="filter-btn">Sports</button>
+      <button class="filter-btn">Monthly</button>
+      <button class="filter-btn">Unique</button>
+    </div>
+    <div class="portfolio-grid">
+
+      <div class="portfolio-item featured">
+        <img class="img-slot" src="img/IMG-20260428-WA0089.jpg" alt="Church Flyer Collection">
+        <div class="portfolio-overlay">
+          <div class="portfolio-label">Church Flyer Design</div>
+          <div class="portfolio-title">Religious Event Posters — Collection</div>
+        </div>
+      </div>
+
+      <!-- ══════════════════════════════════════════════
+           CARD 2 — BUSINESS FLYER
+           IMAGE SLOT 2
+           ══════════════════════════════════════════════ -->
+      <div class="portfolio-item">
+        <img class="img-slot" src="img/IMG-20260428-WA0097.jpg" alt="Business Flyer Design">
+        <div class="portfolio-overlay">
+          <div class="portfolio-label">Business Flyer Design</div>
+          <div class="portfolio-title">Commercial Brand Campaigns</div>
+        </div>
+      </div>
+
+      <!-- ══════════════════════════════════════════════
+           CARD 3 — SPORTS FLYER
+           IMAGE SLOT 3
+           ══════════════════════════════════════════════ -->
+      <div class="portfolio-item">
+        <img class="img-slot" src="img/IMG-20260428-WA0101.jpg" alt="Sports Flyer Design">
+        <div class="portfolio-overlay">
+          <div class="portfolio-label">Sports Flyer Design</div>
+          <div class="portfolio-title">Athletic &amp; Football Graphics</div>
+        </div>
+      </div>
+
+      <!-- ══════════════════════════════════════════════
+           CARD 4 — MONTHLY FLYER
+           IMAGE SLOT 4
+           ══════════════════════════════════════════════ -->
+      <div class="portfolio-item">
+        <img class="img-slot" src="img/IMG-20260428-WA0102.jpg" alt="Monthly Flyer Design">
+        <div class="portfolio-overlay">
+          <div class="portfolio-label">Monthly Flyer Design</div>
+          <div class="portfolio-title">Calendar &amp; Event Series</div>
+        </div>
+      </div>
+
+      <!-- ══════════════════════════════════════════════
+           CARD 5 — UNIQUE / ENTERTAINMENT FLYER
+           IMAGE SLOT 5
+           ══════════════════════════════════════════════ -->
+      <div class="portfolio-item">
+        <img class="img-slot" src="img/IMG-20260428-WA0103.jpg" alt="Unique Flyer Designs">
+        <div class="portfolio-overlay">
+          <div class="portfolio-label">Unique Flyer Designs</div>
+          <div class="portfolio-title">Entertainment &amp; Culture</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CAROUSEL -->
+<section id="carousel">
+  <div class="container">
+    <div class="carousel-header">
+      <p class="section-tag">Random Designs — Showcase</p>
+      <h2 class="section-title">Design <em>Showcase</em></h2>
+    </div>
+  </div>
+
+  <div class="carousel-track-wrap">
+    <div class="carousel-track" id="carouselTrack">
+
+      <!-- CAROUSEL SLIDE 1 -->
+      <div class="carousel-slide">
+        <img class="img-slot" src="img/IMG-20260428-WA0104.jpg" alt="Design 01">
+        <div class="carousel-slide-overlay">
+          <div class="carousel-slide-label">Design 01 — Label here</div>
+        </div>
+      </div>
+
+      <!-- CAROUSEL SLIDE 2 -->
+      <div class="carousel-slide">
+        <img class="img-slot" src="img/IMG-20260428-WA0106.jpg" alt="Design 02">
+        <div class="carousel-slide-overlay">
+          <div class="carousel-slide-label">Design 02 — Label here</div>
+        </div>
+      </div>
+
+      <!-- CAROUSEL SLIDE 3 -->
+      <div class="carousel-slide">
+        <img class="img-slot" src="img/IMG-20260428-WA0107.jpg" alt="Design 03">
+        <div class="carousel-slide-overlay">
+          <div class="carousel-slide-label">Design 03 — Label here</div>
+        </div>
+      </div>
+
+      <!-- CAROUSEL SLIDE 4 -->
+      <div class="carousel-slide">
+        <img class="img-slot" src="img/IMG-20260428-WA0108.jpg" alt="Design 04">
+        <div class="carousel-slide-overlay">
+          <div class="carousel-slide-label">Design 04 — Label here</div>
+        </div>
+      </div>
+
+      <!-- CAROUSEL SLIDE 5 -->
+      <div class="carousel-slide">
+        <img class="img-slot" src="img/IMG-20260428-WA0112.jpg" alt="Design 05">
+        <div class="carousel-slide-overlay">
+          <div class="carousel-slide-label">Design 05 — Label here</div>
+        </div>
+      </div>
+
+      <!-- CAROUSEL SLIDE 6 -->
+      <div class="carousel-slide">
+        <img class="img-slot" src="img/IMG-20260428-WA0113.jpg" alt="Design 06">
+        <div class="carousel-slide-overlay">
+          <div class="carousel-slide-label">Design 06 — Label here</div>
+        </div>
+      </div>
+
+      <!-- CAROUSEL SLIDE 7 -->
+      <div class="carousel-slide">
+        <img class="img-slot" src="img/IMG-20260428-WA0116.jpg" alt="Design 07">
+        <div class="carousel-slide-overlay">
+          <div class="carousel-slide-label">Design 07 — Label here</div>
+        </div>
+      </div>
+
+      <!-- CAROUSEL SLIDE 8 -->
+      <div class="carousel-slide">
+        <img class="img-slot" src="img/IMG-20260428-WA0117.jpg" alt="Design 08">
+        <div class="carousel-slide-overlay">
+          <div class="carousel-slide-label">Design 08 — Label here</div>
+        </div>
+      </div>
+
+      <!-- CAROUSEL SLIDE 9 -->
+      <div class="carousel-slide">
+        <img class="img-slot" src="img/IMG-20260428-WA0119.jpg" alt="Design 09">
+        <div class="carousel-slide-overlay">
+          <div class="carousel-slide-label">Design 09 — Label here</div>
+        </div>
+      </div>
+
+      <!-- CAROUSEL SLIDE 10 -->
+      <div class="carousel-slide">
+        <img class="img-slot" src="img/IMG-20260428-WA0123.jpg" alt="Design 10">
+        <div class="carousel-slide-overlay">
+          <div class="carousel-slide-label">Design 10 — Label here</div>
+        </div>
+      </div>
+
+      <!-- CAROUSEL SLIDE 11 -->
+      <div class="carousel-slide">
+        <img class="img-slot" src="img/IMG-20260428-WA0126.jpg" alt="Design 11">
+        <div class="carousel-slide-overlay">
+          <div class="carousel-slide-label">Design 11 — Label here</div>
+        </div>
+      </div>
+
+      <!-- CAROUSEL SLIDE 12 -->
+      <div class="carousel-slide">
+        <img class="img-slot" src="img/IMG-20260428-WA0129.jpg" alt="Design 12">
+        <div class="carousel-slide-overlay">
+          <div class="carousel-slide-label">Design 12 — Label here</div>
+        </div>
+      </div>
+
+    </div><!-- end track -->
+  </div><!-- end track-wrap -->
+
+  <div class="carousel-controls container">
+    <button class="carousel-btn" id="carouselPrev" aria-label="Previous">&#8592;</button>
+    <div class="carousel-dots" id="carouselDots"></div>
+    <button class="carousel-btn" id="carouselNext" aria-label="Next">&#8594;</button>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-tag">Service Graphics Designs — Reviews</p>
+      <h2 class="section-title">Client <em>Reviews</em></h2>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <p class="review-text">"Brooo, this stuff is littttt 🔥🔥🔥" — What can I say? The designs speak for themselves. Pure fire from first concept to final delivery.</p>
+        <div class="review-meta">
+          <div class="review-dot"></div>
+          <span class="review-client">Verified Client · WhatsApp</span>
+        </div>
+      </div>
+      <div class="review-card">
+        <p class="review-text">"You no fit run this stuff with Canva I swear — This is clean." The level of craft and customization is beyond what any template tool can produce.</p>
+        <div class="review-meta">
+          <div class="review-dot" style="background:var(--neon-cyan);box-shadow:0 0 10px var(--neon-cyan)"></div>
+          <span class="review-client">Verified Client · WhatsApp</span>
+        </div>
+      </div>
+      <div class="review-card">
+        <p class="review-text">"Ohh this is good." — Sometimes a reaction says it all. Simple, honest, and exactly what every designer wants to hear after submitting work.</p>
+        <div class="review-meta">
+          <div class="review-dot" style="background:var(--neon-red);box-shadow:0 0 10px var(--neon-red)"></div>
+          <span class="review-client">Verified Client · WhatsApp</span>
+        </div>
+      </div>
+    </div>
+    <p style="font-family:'Space Mono',monospace;font-size:0.65rem;letter-spacing:0.15em;color:var(--text-muted);text-align:center;margin-top:2rem;text-transform:uppercase">Some compliments from our clients</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="section-header">
+          <p class="section-tag">Let's Work</p>
+          <h2 class="section-title">Contact <em>Us</em> Today</h2>
+        </div>
+        <p class="contact-intro">Ready to bring your vision to life? Reach out and let's create something that stands out from the crowd.</p>
+        <div class="contact-item">
+          <div class="contact-icon">✉</div>
+          <div>
+            <div class="contact-label">Email</div>
+            <a href="mailto:danielcrypto677@gmail.com" class="contact-value contact-link">danielcrypto677@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📱</div>
+          <div>
+            <div class="contact-label">Phone / WhatsApp</div>
+            <a href="https://wa.me/2349042592047" target="_blank" rel="noopener" class="contact-value contact-link">09042592047</a>
+            &nbsp;<span style="color:var(--text-muted)">|</span>&nbsp;
+            <a href="tel:08062246724" class="contact-value contact-link">08062246724</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🌐</div>
+          <div>
+            <div class="contact-label">TikTok</div>
+            <a href="https://www.tiktok.com/@deegraphics_001" target="_blank" rel="noopener" class="contact-value contact-link">@Deegraphics_001</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon" style="font-size:0.8rem">FB</div>
+          <div>
+            <div class="contact-label">Facebook</div>
+            <a href="https://www.facebook.com/Dah_Niel" target="_blank" rel="noopener" class="contact-value contact-link">Dah_Niel</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon" style="font-size:0.75rem">IG</div>
+          <div>
+            <div class="contact-label">Instagram — replace with your handle</div>
+            <a href="https://www.instagram.com/deegraphics_001" target="_blank" rel="noopener" class="contact-value contact-link">@deegraphics_001</a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-cta-panel">
+        <h3 class="cta-title">We Keep Creating Quality Standard, Functional &amp; Creative Designs That Stand Out</h3>
+        <p class="cta-sub">Every project is a collaboration. Share your idea, your brand, or your vision — and we'll transform it into something powerful, memorable, and distinctly yours.</p>
+        <div class="cta-badges">
+          <span class="badge">Fast Turnaround</span>
+          <span class="badge">Revision-Ready</span>
+          <span class="badge">High Quality</span>
+          <span class="badge">Creative Direction</span>
+        </div>
+        <a href="https://wa.me/2349042592047" class="btn-primary" style="display:inline-block">Message on WhatsApp →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">DEEGRAPHICS</div>
+      <div class="footer-tagline">Quality. Functional. Creative.</div>
+    </div>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-copy">© 2025 <span>•</span> Powered by <a href="#" target="_blank" rel="noopener" style="color:var(--neon-cyan);text-decoration:none;transition:opacity 0.2s;" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">Eagletech</a></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
